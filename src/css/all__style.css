@@ -1,0 +1,141 @@
+body {
+  margin: 0 ;
+  padding: 0;
+
+}
+*,*:before,*:after{box-sizing: border-box;}
+
+h1,h2,h3,h4,h5,h6{ margin:0;}
+a{
+  text-decoration: none;
+}
+ul,li {
+  list-style-type:none ;
+  margin: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* Сброс стилей */
+
+/*font-family: 'Oldenburg', cursive; 
+font-family: 'Biryani', sans-serif;
+font-family: 'Abril Fatface', cursive; */
+
+.hr {
+  border:1px solid black;
+}
+
+
+.fonts {
+  
+  font-family: 'Biryani', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.fonts_h {
+  font-weight: 900;
+ 
+  font-size: 20px;
+  font-family: 'Oldenburg', cursive;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+
+.fonts_h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 900;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
+  background-color: #f3ead8;
+  /* background: linear-gradient( rigth #d2c7b3 50%, yellow 50%); */
+  /* efe8da */
+ margin-top: 50px;
+  box-shadow: 0 0 45px rgba(0,0,0,3.5);
+  
+  
+}
+.container {
+  max-width: 1360px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* footer nav */
+.navigation  {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.navigation  a {
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+}
+
+.navigation  a:hover {
+  cursor: pointer;
+  font-size: 22px;
+  color: #ffffff;
+}
+/*img fp-first page */
+
+.img1 {
+padding: 8px;
+filter: grayscale(100%); 
+}
+.img2 {
+  width: 300px;
+  height: 400px;
+  filter: grayscale(100%); 
+}
+
+.img3 {
+  width: 200px;
+  height: 200px;
+  filter: grayscale(100%); 
+}
+
+.img4 {
+  padding-top: 5px;
+  width: 320px;
+  height: 482px;
+  filter: grayscale(100%); 
+}
+/* img sp-second page */
+
+.img10 {
+  width: 320px;
+  height: 450px;
+  padding-top: 10px;
+  filter: grayscale(100%); 
+}
+.img11 {
+  width: 300px;
+  filter: grayscale(100%); 
+
+}
+.img12 {
+  filter: grayscale(100%); 
+}
+
+.img13 {
+  width: 440px;
+  height: 300px;
+  filter: grayscale(100%); 
+}
+
+.img14 {
+  width: 340px;
+  height: 530px;
+  filter: grayscale(100%); 
+}
